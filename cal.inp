@@ -1,0 +1,23 @@
+
+ID cal000 666666 20 4
+fs 18 11
+box 0 0 20 20
+#opc debug
+
+cf 01 02 12 Calculadora
+
+cf 05 02 10 Operando:
+ce 06 02 01 000 an 0 
+
+cf 03 02 10 Numero 1:
+ce 04 02 03 001 ne 0
+
+cf 07 02 10 Numero 2:
+ce 08 02 03 004 ne 0
+
+cf 10 02 11 respuesta:
+cs 10 15 04 000 ne 0 
+
+
+fa his000 
+ff  

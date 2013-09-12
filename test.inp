@@ -1,0 +1,13 @@
+ID test78 666661 6  6
+#testing
+fs 6 6
+ocp debug
+ct inv
+box 0 0 6 6
+cf 1 2 5 texto
+ce 2 2 3 000 an 0 # offset tipo decimales 
+ce 3 2 3 004 ne 0 # offset tipo decimales
+cd 5 2 4 offset tipo decimales
+cs 6 1 4 offset_input off_set_output
+tm  test78 4 texto
+ff
